@@ -10,3 +10,5 @@ torch
 peft
 accelerate
 psutil
+jupyter
+ipykernel
