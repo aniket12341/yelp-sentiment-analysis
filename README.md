@@ -1,6 +1,11 @@
-# Yelp Review Sentiment Analysis
+# Sentiment Classification at Scale: Traditional ML vs Transformers on Real Reviews
 
 This project performs sentiment analysis on Yelp reviews using both traditional machine learning models and transformer-based deep learning models.
+
+## Academic Details
+- **Student Name and SRN:** Aniket Mane - 23096043
+- **Programme:** MSc Data Science
+- **Module:** 7PAM2002-0206-2025 - Final project report
 
 ## Project Objective
 The aim of this project is to classify Yelp customer reviews into sentiment categories by comparing the performance of classical machine learning methods with modern transformer models.
@@ -79,7 +84,7 @@ cd your-repository-name
    pip install -r requirements.txt
 ```
 ### 3. Launch Jupyter Notebook or JupyterLab.
-### 4. Open the notebook file Yelp_sentiment_clean.ipynb.
+### 4. Open the notebook file Yelp_sentiment.ipynb.
 ### 5. Run the cells in sequence from top to bottom.
 ### 6. The notebook will guide you through dataset loading, preprocessing, model training, and evaluation.
 ### 7. Review the final outputs, performance metrics, and visualisations for model comparison.
