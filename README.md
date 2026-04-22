@@ -11,7 +11,8 @@ This project performs sentiment analysis on Yelp reviews using both traditional 
 The aim of this project is to classify Yelp customer reviews into sentiment categories by comparing the performance of classical machine learning methods with modern transformer models.
 
 ## Dataset
-The dataset used in this project is the Yelp Review dataset.  
+The dataset used in this project is the **Yelp Review Full** dataset, loaded using the Hugging Face `datasets` library.
+
 The original review ratings are converted into sentiment classes for classification.
 
 ### Sentiment Labels
@@ -57,37 +58,38 @@ The models are evaluated using:
 - Matplotlib
 - Scikit-learn
 - Hugging Face Transformers
+- Hugging Face Datasets
 - PyTorch
 - PEFT / LoRA
 
-## File in Repository
+## Files in Repository
 - `Yelp_sentiment.ipynb` 
 - `requirements.txt`
 - `README.md`
 - `.gitignore`
 
 ## Results
-The project compares the effectiveness of traditional machine learning techniques and transformer-based architectures for sentiment classification on Yelp reviews.
+The project compares the performance of traditional machine learning models and transformer-based architectures for sentiment classification on Yelp reviews. The results highlight differences in classification effectiveness, computational complexity, and overall model performance. This allows a practical comparison between lighter classical approaches and more advanced transformer models on a real-world review dataset.
 
 ## How to Run
 
-### 1. Clone the repository
+1. Clone the repository
 Download or clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/aniket12341/yelp-sentiment-analysis.git
 cd yelp-sentiment-analysis
 ```
-### 2. Install the required dependencies using:
+2. Install the required dependencies using:
 
 ```bash
    pip install -r requirements.txt
 ```
-### 3. Launch Jupyter Notebook or JupyterLab.
-### 4. Open the notebook file Yelp_sentiment.ipynb.
-### 5. Run the cells in sequence from top to bottom.
-### 6. The notebook will guide you through dataset loading, preprocessing, model training, and evaluation.
-### 7. Review the final outputs, performance metrics, and visualisations for model comparison.
+3. Launch Jupyter Notebook or JupyterLab.
+4. Open the notebook file Yelp_sentiment.ipynb.
+5. Run the cells in sequence from top to bottom.
+6. The notebook will guide you through dataset loading, preprocessing, model training, and evaluation.
+7. Review the final outputs, performance metrics, and visualisations for model comparison.
 
 ## Author
 Aniket
