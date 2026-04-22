@@ -75,8 +75,8 @@ The project compares the effectiveness of traditional machine learning technique
 Download or clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/aniket12341/yelp-sentiment-analysis.git
+cd yelp-sentiment-analysis
 ```
 ### 2. Install the required dependencies using:
 
